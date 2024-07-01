@@ -5,4 +5,55 @@ body {
 
 a {
   color: #00b7ff;
+   top: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #e3e3e3;
+  color: #000;
+}
+
+h1 {
+  font-size: 2.6em;
+  margin: 0.67em 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin: 0.83em 0;
+  text-align: center;
+}
+
+label {
+  font-size: 1.4em;
+  margin: 0.83em 0;
+  font-weight: bold;
+}
+li, a, button {
+  margin-top:18px ;
+  font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px rgb(25, 47, 147);
+}
+
+button:hover {
+  transform: translate(5px, -5px);
+}
+
+input,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #0a0909;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
